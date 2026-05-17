@@ -140,6 +140,16 @@
 ## ⚡ Быстрый старт
 
 ```bash
+curl -O https://raw.githubusercontent.com/avar-soft/apache-auto-installer/main/apache-setup.sh
+chmod +x apache-setup.sh
+sudo bash apache-setup.sh 
+```
+
+### Или через git
+
+```bash
+git clone https://github.com/avar-soft/apache-auto-installer.git
+cd apache-auto-installer
 sudo bash apache-setup.sh
 ```
 
